@@ -1,0 +1,281 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    
+    background-image: url("/HTML/MEDIA/IMAGES/back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    cursor: default;
+}
+.btn button{
+    height: 40px;
+    width: 120px;
+    margin-top: 10px;
+    border: 2px solid #FF00CC;
+    border-radius: 25px;
+    background-color: black;
+    color: #FF00CC;
+    font-size: 15px;
+    font-weight: 550;
+    box-shadow:0px 0px 10px #FF00CC;
+    cursor: pointer;
+}
+.btn button:hover{
+    color: black;
+    background-color: #FF00CC;
+    box-shadow: 0px 0px 20px #FF00CC;
+}
+.btn button:focus{
+    background-color: black;
+    color: #FF00CC;
+    
+}
+.btn{
+    display: flex;
+    margin-top: 7px;
+    margin-right: 10px;
+}
+.back{
+    margin-right: 10px;
+}
+.logo img{
+    border-radius: 50%;
+    background-color:#a0f8f8;
+    box-shadow: 0px 0px 15px #00FFFF;
+    border: 3px solid #00FFFF;
+}
+#front h1{
+    font-size: 35px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    padding-top: 5px;
+    padding-left: 10px;
+    color: black;
+    -webkit-text-stroke: 2px #00FFFF;
+    text-shadow: 0px 0px 10px #00FFFF;
+    
+}
+#Movies{
+    font-size: 35px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    padding-top: 5px;
+    padding-left: 10px;
+    color: black;
+    -webkit-text-stroke: 2px #FF0000;
+    text-shadow: 0px 0px 8px #FF0000;
+    cursor: default;
+    
+}
+#front{
+    display: flex;
+    padding-left: 30px;
+}
+#HEADER{
+    display: flex;
+    justify-content: space-between;
+   padding-top: 10px;
+    height: 75px;
+
+}
+h2{
+    color: #FFF111;
+    font-size: 25px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    padding-left: 50px;
+}
+.Movieslist{
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    color: rgb(182, 178, 178);
+
+}
+.head1{
+    margin-top: 25px;
+}
+.actor img{
+   
+    box-shadow: 0px 0px 10px white;
+    transition: 0.4s;
+    transform: scale(0.8);
+}
+.actor img:hover{
+    box-shadow: 0px 0px 25px white;
+    transform: scale(0.9);
+    border-radius: 25px;
+}
+.actor p{
+    margin-top: 5px;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+}
+.ajith {
+    color: white;
+    text-align: center;
+
+}
+
+.vijay{
+    color: white;
+    text-align: center;
+}
+.dhanush{
+    color: white;
+    text-align: center;
+}
+.karthi{
+    color: white;
+    text-align: center;
+}
+.sk{
+    color: white;
+    text-align: center;
+}
+.actor{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 40px;
+    justify-content: space-evenly;
+}
+.head2{
+    margin-top: 25px;
+}
+.directors img{
+   
+    box-shadow: 0px 0px 10px white;
+    transition: 0.4s;
+    transform: scale(0.8);
+}
+.directors img:hover{
+    box-shadow: 0px 0px 20px white;
+    transform: scale(0.9);
+    border-radius: 25px;
+}
+.directors  p{
+    margin-top: 5px;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+   
+}
+.lokesh{
+    color: white;
+    text-align: center;
+   
+}
+.selva{
+    color: white;
+    text-align: center;
+   
+}
+.vetrimaran{
+    color: white;
+    text-align: center;
+   
+}
+.shankar{
+    color: white;
+    text-align: center;
+}
+.gvm{
+    color: white;
+    text-align: center;
+}
+.directors {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-left: 40px;
+    justify-content: space-evenly;
+}
+.head3{
+    margin-top: 25px;
+}
+.newrelease img{
+    
+    box-shadow: 0px 0px 10px white;
+    transition: 0.4s;
+    transform: scale(0.9);
+}
+.newrelease img:hover{
+    box-shadow: 0px 0px 20px white;
+    transform: scale(1.0);
+    border-radius: 10px;
+}
+.newrelease p{
+    margin-top: 5px;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+   
+}
+.indian2{
+    color: white;
+    text-align: center;
+}
+.maharaja{
+    color: white;
+    text-align: center;
+}
+.raayan{
+    color: white;
+    text-align: center;
+}
+.newrelease{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    justify-content: space-evenly;
+    
+}
+.head4{
+    margin-top: 25px;
+}
+.action img{
+    
+    box-shadow: 0px 0px 10px white;
+    transition: 0.4s;
+    transform: scale(0.9);
+}
+.action img:hover{
+    box-shadow: 0px 0px 20px white;
+    transform: scale(1.0);
+    border-radius: 10px;
+}
+.action p{
+    margin-top: 5px;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+   
+}
+.maaveeran{
+    color: white;
+    text-align: center;
+   
+}
+.vadakkupatti{
+    color: white;
+    text-align: center;
+   
+}
+.mark{
+    color: white;
+    text-align: center;
+
+}
+.action{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    justify-content: space-evenly;
+}

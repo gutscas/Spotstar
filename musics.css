@@ -1,0 +1,291 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    
+    background-image: url("/HTML/MEDIA/IMAGES/back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    cursor: default;
+}
+.btn button{
+    height: 40px;
+    width: 120px;
+    border: 2px solid #FF00CC;
+    border-radius: 25px;
+    background-color: black;
+    color: #FF00CC;
+    font-size: 15px;
+    font-weight: 550;
+    box-shadow:0px 0px 10px #FF00CC;
+    cursor: pointer;
+}
+.btn button:hover{
+    color: black;
+    background-color: #FF00CC;
+    box-shadow: 0px 0px 20px #FF00CC;
+}
+.btn button:focus{
+    background-color: black;
+    color: #FF00CC;
+    
+}
+.btn{
+    display: flex;
+padding-right: 20px;
+   padding-top: 15px;
+
+}
+.back{
+    margin-right: 10px;
+}
+.logo img{
+    border-radius: 50%;
+    background-color:#a0f8f8;
+    box-shadow: 0px 0px 15px #00FFFF;
+    border: 3px solid #00FFFF;
+}
+#front h1{
+    font-size: 35px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    padding-top: 5px;
+    padding-left: 10px;
+    color: black;
+    -webkit-text-stroke: 2px #00FFFF;
+    text-shadow: 0px 0px 10px #00FFFF;
+    
+}
+#music{
+    font-size: 35px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    padding-top: 5px;
+    padding-left: 10px;
+    color: black;
+    -webkit-text-stroke: 2px #FF0000;
+    text-shadow: 0px 0px 8px #FF0000;
+    cursor: default;
+    
+}
+.playlist{
+    font-size: 25px;
+    font-family: "Poppins", sans-serif;
+    color: rgb(184, 180, 180);
+    font-weight: 500;
+}
+#front{
+    display: flex;
+    padding-left: 30px;
+}
+#HEADER{
+    display: flex;
+    justify-content: space-between;
+   padding-top: 10px;
+    height: 75px;
+
+}
+h2{
+    color: #FFF111;
+    font-size: 25px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    padding-left: 50px;
+}
+.head1{
+    margin-top: 25px;
+}
+.actor img{
+   
+    box-shadow: 0px 0px 10px white;
+    transition: 0.4s;
+    transform: scale(0.8);
+}
+.actor img:hover{
+    box-shadow: 0px 0px 20px white;
+    transform: scale(0.9);
+
+    border-radius: 15px;
+}
+.actor p{
+    margin-top: 5px;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+   
+}
+.ajith {
+    color: white;
+    text-align: center;
+
+}
+
+.vijay{
+    color: white;
+    text-align: center;
+}
+.surya{
+    color: white;
+    text-align: center;
+}
+.nayandhara{
+    color: white;
+    text-align: center;
+}
+.andrea{
+    color: white;
+    text-align: center;
+}
+.actor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-left: 40px;
+}
+.head2{
+    margin-top: 25px;
+}
+.musicdirect img{
+   
+    box-shadow: 0px 0px 10px white;
+    transition: 0.4s;
+    transform: scale(0.8);
+}
+.musicdirect img:hover{
+    box-shadow: 0px 0px 20px white;
+    transform: scale(0.9);
+    border-radius: 15px;
+}
+.musicdirect p{
+    margin-top: 5px;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+}
+.aniruth{
+    color: white;
+    text-align: center;
+}
+.arr{
+    color: white;
+    text-align: center;
+}
+.gvp{
+    color: white;
+    text-align: center;
+}
+.ilaya{
+    color: white;
+    text-align: center;
+}
+.yuvan{
+    color: white;
+    text-align: center;
+}
+.musicdirect{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-left: 40px;
+    justify-content: space-evenly;
+}
+.head3{
+    margin-top: 25px;
+}
+.lyricist img{
+    
+    box-shadow: 0px 0px 10px white;
+    transition: 0.4s;
+    transform: scale(0.8);
+}
+.lyricist img:hover{
+    box-shadow: 0px 0px 20px white;
+    transform: scale(0.9);
+    border-radius: 15px;
+}
+.lyricist p{
+    margin-top: 5px;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+}
+.dhanush{
+    color: white;
+    text-align: center;
+}
+.madhan{
+    color: white;
+    text-align: center;
+}
+.snehan{
+    color: white;
+    text-align: center;
+}
+.vairamuth{
+    color: white;
+    text-align: center;
+}
+.muthu{
+    color: white;
+    text-align: center;
+}
+.lyricist{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-left: 40px;
+    justify-content: space-evenly;
+}
+.head4{
+    margin-top: 25px;
+}
+.playback img{
+    
+    box-shadow: 0px 0px 10px white;
+    transition: 0.4s;
+    transform: scale(0.8);
+}
+.playback img:hover{
+    box-shadow: 0px 0px 20px white;
+    transform: scale(0.9);
+    border-radius: 15px;
+
+}
+.playback p{
+    margin-top: 5px;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+}
+.str{
+    color: white;
+    text-align: center;
+}
+.antony{
+    color: white;
+    text-align: center;
+}
+.sid{
+    color: white;
+    text-align: center;
+}
+.shankar{
+    color: white;
+    text-align: center;
+}
+.mano{
+    color: white;
+    text-align: center;
+}
+.playback{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    justify-content: space-evenly;
+}
