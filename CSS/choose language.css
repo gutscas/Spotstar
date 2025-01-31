@@ -1,0 +1,153 @@
+*{
+    margin: 0px;
+    padding: 0px;  
+}
+body{
+    
+    background-image: url("/IMAGES/back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    cursor: default;
+}
+.logo img{
+    border-radius: 50%;
+    background-color:#a0f8f8;
+    box-shadow: 0px 0px 15px #00FFFF;
+    border: 3px solid #00FFFF;
+}
+#front h1{
+    font-size: 40px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    padding-top: 5px;
+    padding-left: 10px;
+    color: black;
+    -webkit-text-stroke: 2px #00FFFF;
+    text-shadow: 0px 0px 10px #00FFFF;
+    cursor: default;
+}
+#front{
+    display: flex;
+    padding-left: 30px;
+    
+}
+#HEADER{
+    display: flex;
+justify-content: space-between;
+   padding-top: 10px;
+
+    height: 75px;
+}
+.btn button{
+    height: 40px;
+    width: 120px;
+    margin-top: 10px;
+    border: 2px solid #FF00CC;
+    border-radius: 25px;
+    background-color: black;
+    color: #FF00CC;
+    font-size: 15px;
+    font-weight: 550;
+    box-shadow:0px 0px 10px #FF00CC;
+    cursor: pointer;
+}
+.btn button:hover{
+    color: black;
+    background-color: #FF00CC;
+    box-shadow: 0px 0px 20px #FF00CC;
+}
+.btn button:focus{
+    background-color: black;
+    color: #FF00CC;
+    
+}
+.back{
+    margin-right: 10px;
+}
+.btn{
+    display: flex;
+    margin-top: 7px;
+    margin-right: 10px;
+}
+label{
+    color:#FF0000;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+
+}
+select{
+    width: 150px;
+    height: 30px;
+    background-color: black;
+    backdrop-filter: blur(10px);
+    margin-left: 10px;
+    color: white;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    border: 2px solid white;
+     border-radius: 5px;
+}
+option{
+    color: white;
+    background-color: black;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.header1{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.next button{
+    height: 30px;
+    width: 100px;
+    border: 2px solid #FF0000;
+    border-radius: 30px;
+    background-color: black;
+    color: #FF0000;
+    font-size: 18px;
+    font-weight: 550;
+    box-shadow:0px 0px 10px #FF0000;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.next button:hover{
+    color: black;
+    background-color:  #FF0000;
+    box-shadow: 0px 0px 20px  #FF0000;
+}
+.next button:focus{
+    background-color: black;
+    color:  #FF0000;
+    
+}
+.Tamil{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    
+}
+.malayalam{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.container img{
+    transform: scale(0.9);
+    transition: 0.4s;
+}
+.container img:hover{
+    transform: scale(1.0);
+    box-shadow: 0px 0px 25px white;
+    border-radius: 20px;
+}
